@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  font-family: $font-stack-primary;
+  font-weight: 100;
+}
+
+body {
+  background-color: black;
+  color: $white;
+}
+
+ul {
+  list-style: none;
+  margin: 2em;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $white;
+}
+
+h3,
+h4,
+p {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: normal;
+}
+
+
+.primary {
+  align-items: start;
+  padding-top: 6em;
+}
+
+
+footer {
+  padding-top: 9em;
+}
